@@ -18,7 +18,7 @@ function FavoriteAnimal() {
   const [animal, setAnimal] = React.useState('')
   return (
     <div>
-      <label htmlFor="animal">Favorite Animal: </label>
+      <label htmlFor="animal">Favorite Animal: </label> 
       <input
         id="animal"
         value={animal}
